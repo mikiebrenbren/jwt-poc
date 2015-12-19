@@ -24,7 +24,9 @@ key:password | value: pw1234
 
 NOTE: The value fields are hardcoded in the app so it doesnt matter what you enter for those, just make sure the keys(user, password) are entered correctly!
 
-Confirm the request method is a POST and send the request.  Your headers should contain a header that looks similar to this...
+Confirm the request method is a POST and send the request.  
+
+Your response headers should contain a header that looks similar to this...
 
 ```X-AUTH-TOKEN → eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE0NTA1NjI4NDYsInN1YiI6InVzZXJuYW1lIn0.yFFmUHqLEoauuIAexyGYojuQiUbxzeOB7QiRG8vR_e0yizez1uXqI5vUNJwF_iAZTWKSQVdBwi6R88GF8FihgA```
 
