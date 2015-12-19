@@ -1,0 +1,69 @@
+{
+	"id": "5eaba194-ffa3-967d-1e0a-cdb35d2d8fed",
+	"name": "JWT Collection",
+	"description": "",
+	"order": [
+		"e05f7e76-d86e-360e-498f-c451950afc4e",
+		"b4e9aeaf-1af7-5031-e279-7c0d19e49a19"
+	],
+	"folders": [],
+	"timestamp": 1450559010517,
+	"owner": "133138",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "b4e9aeaf-1af7-5031-e279-7c0d19e49a19",
+			"headers": "",
+			"url": "localhost:8014/api/auth/login",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "5eaba194-ffa3-967d-1e0a-cdb35d2d8fed",
+			"data": [
+				{
+					"key": "user",
+					"value": "username",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "pw1234",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "/login",
+			"description": "Generated from a curl request: \\ncurl -i -X POST -d user=user -d password=userPass http://localhost:8080/api/login",
+			"descriptionFormat": "html",
+			"time": 1450559065122,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e05f7e76-d86e-360e-498f-c451950afc4e",
+			"headers": "X-AUTH-TOKEN: JhbGciOiJIUzUxMiJ9.eyJleHAiOjE0NTA1NjA1ODcsInN1YiI6InVzZXJuYW1lIn0.NqsZV6AFhFuk_9i89oLS7vQ9APL8DdP4BQQ_BELjCVtTI8_PbqcpsXUAfl_txBnFxArWoD9kuwzMHMWub0HJOA\n",
+			"url": "localhost:8014/api/hello/",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "5eaba194-ffa3-967d-1e0a-cdb35d2d8fed",
+			"data": [],
+			"dataMode": "params",
+			"name": "/hello",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1450559023735,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
